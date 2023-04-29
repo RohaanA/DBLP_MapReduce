@@ -4,8 +4,6 @@
 
 This project implements the Hadoop MapReduce computational model to perform analyses on DBLP publication data, specifically computing the number of articles published in each journal per year. This can provide valuable insights into trends and patterns in academic publishing.
 
-# How it Works
-
 The MapReduce process involves mapping input data into key-value pairs, then reducing them into a set of aggregated values. In this project, we parse the DBLP data and map the relevant fields (journal name and publication year) into key-value pairs. The reduce function then aggregates the counts of articles published in each journal for each year.
 
 # Requirements
