@@ -31,7 +31,7 @@ Replace input_directory with the directory containing the DBLP data and output_d
 The output of this project is a list of journals and the number of articles published in each journal for each year. 
 <br>Sample output looks like this,
 
-``ACM Comput. Surv.-1978  34``
+``ACM Journal on Computing and Cultural Heritage-2018   20``
 
 # Conclusion
 By implementing MapReduce on DBLP publication data, we can gain valuable insights into academic publishing trends and patterns. This project provides a simple and efficient way to compute the number of articles published in each journal per year.
